@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>lab 2a</title>
 </head>
 <body>
     <table border=1 cellspacing=0 cellpadding=15>
@@ -22,8 +22,8 @@
         <td>".$students[$names[$i]]."</td>
         </tr> ";
     }
-    echo "</table>
-    Using foreach <br>";
+    echo "</table> <br>
+    Using foreach loop <br>";
 
     echo"<table border=1 cellspacing=0 cellpadding=15>
     <tr>
@@ -33,8 +33,8 @@
 
     foreach ($students as $name=>$marks) {
         echo "<tr>
-        <td>".$name."</td>
-        <td>".$marks."</td>
+        <td>$name</td>
+        <td>$marks</td>
         </tr>";
 
     }
